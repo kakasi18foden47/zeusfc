@@ -14,7 +14,13 @@
       "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git --yes)",
       "Bash(npm install:*)",
       "Bash(npm run:*)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(sed -i '' 's/className=\"text-6xl md:text-7xl font-black tracking-\\\\[0.2em\\\\] text-white\">RANKING/className=\"font-cinzel text-6xl md:text-7xl font-black tracking-[0.2em] text-white\">RANKING/' /Users/kyungtaekoh/Projects/zeusfc/src/app/ranking/page.tsx)",
+      "Bash(sed -i '' 's/className=\"text-5xl font-black tracking-\\\\[0.15em\\\\] text-white\">EVENT/className=\"font-cinzel text-5xl font-black tracking-[0.15em] text-white\">EVENT/' /Users/kyungtaekoh/Projects/zeusfc/src/app/events/page.tsx)",
+      "Bash(sed -i '' 's/className=\"text-4xl font-black tracking-\\\\[0.2em\\\\] text-white\">RULES/className=\"font-cinzel text-4xl font-black tracking-[0.2em] text-white\">RULES/' /Users/kyungtaekoh/Projects/zeusfc/src/app/rules/page.tsx)",
+      "Bash(sed -i '' 's/className=\"text-4xl font-black tracking-\\\\[0.2em\\\\] text-white\">COMMUNITY/className=\"font-cinzel text-4xl font-black tracking-[0.2em] text-white\">COMMUNITY/' /Users/kyungtaekoh/Projects/zeusfc/src/app/community/page.tsx)",
+      "Bash(sed -i '' 's/className=\"text-6xl md:text-8xl font-black tracking-\\\\[0.05em\\\\] text-white leading-none mb-4\"/className=\"font-cinzel text-6xl md:text-8xl font-black tracking-[0.05em] text-white leading-none mb-4\"/' /Users/kyungtaekoh/Projects/zeusfc/src/app/company/page.tsx)",
+      "Bash(sed -i '' 's/className=\"text-3xl md:text-5xl font-black tracking-\\\\[0.15em\\\\] text-white mb-10\"/className=\"font-cinzel text-3xl md:text-5xl font-black tracking-[0.15em] text-white mb-10\"/' /Users/kyungtaekoh/Projects/zeusfc/src/app/company/page.tsx)"
     ]
   }
 }
